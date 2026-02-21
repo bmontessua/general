@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.5.1">
-  <diagram name="Relational Model" id="6CZvKRzFyUQnVetuN7uT">
-    <mxGraphModel dx="868" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram name="RM" id="6CZvKRzFyUQnVetuN7uT">
+    <mxGraphModel dx="1226" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -128,7 +128,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="puZU-KDi_ta-ipmePuGk-30" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="Instructors" vertex="1">
-          <mxGeometry height="150" width="180" x="520" y="210" as="geometry" />
+          <mxGeometry height="150" width="180" x="100" y="580" as="geometry" />
         </mxCell>
         <mxCell id="puZU-KDi_ta-ipmePuGk-31" parent="puZU-KDi_ta-ipmePuGk-30" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" value="" vertex="1">
           <mxGeometry height="30" width="180" y="30" as="geometry" />
@@ -183,7 +183,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="puZU-KDi_ta-ipmePuGk-43" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Enrollment" vertex="1">
-          <mxGeometry height="150" width="180" x="520" y="410" as="geometry" />
+          <mxGeometry height="150" width="180" x="550" y="320" as="geometry" />
         </mxCell>
         <mxCell id="puZU-KDi_ta-ipmePuGk-47" parent="puZU-KDi_ta-ipmePuGk-43" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
           <mxGeometry height="30" width="180" y="30" as="geometry" />
@@ -237,11 +237,11 @@
             <mxRectangle height="30" width="150" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="puZU-KDi_ta-ipmePuGk-57" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=#CCE5FF;align=left;verticalAlign=middle;rounded=0;" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;&lt;u&gt;ER Modeling Exercises&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Group 1&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;University of North Carolina at Greensboro&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;IST423: Information Storage Retrieval&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;Dr. Rukayya Umar&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;February 18, 2026&lt;/p&gt;" vertex="1">
+        <mxCell id="puZU-KDi_ta-ipmePuGk-57" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=#CCE5FF;align=left;verticalAlign=middle;rounded=0;" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;&lt;u&gt;ER Modeling Exercises&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Group 1&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;University of North Carolina at Greensboro&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;IST423: Information Storage Retrieval&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;Dr. Rukayya Umar&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;February 20, 2026&lt;/p&gt;" vertex="1">
           <mxGeometry height="160" width="300" x="40" y="30" as="geometry" />
         </mxCell>
         <mxCell id="puZU-KDi_ta-ipmePuGk-67" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="&lt;div&gt;Teaches&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="180" x="100" y="590" as="geometry" />
+          <mxGeometry height="120" width="180" x="550" y="500" as="geometry" />
         </mxCell>
         <mxCell id="puZU-KDi_ta-ipmePuGk-71" parent="puZU-KDi_ta-ipmePuGk-67" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
           <mxGeometry height="30" width="180" y="30" as="geometry" />
@@ -282,28 +282,28 @@
             <mxRectangle height="30" width="150" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="afuPfpez00HmwlicCAWZ-2" edge="1" parent="1" source="puZU-KDi_ta-ipmePuGk-2" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="puZU-KDi_ta-ipmePuGk-47" value="">
+        <mxCell id="afuPfpez00HmwlicCAWZ-2" edge="1" parent="1" source="puZU-KDi_ta-ipmePuGk-2" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;" target="puZU-KDi_ta-ipmePuGk-47" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
             <mxPoint x="320" y="470" as="sourcePoint" />
             <mxPoint x="420" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="afuPfpez00HmwlicCAWZ-3" edge="1" parent="1" source="puZU-KDi_ta-ipmePuGk-18" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="puZU-KDi_ta-ipmePuGk-50" value="">
+        <mxCell id="afuPfpez00HmwlicCAWZ-3" edge="1" parent="1" source="puZU-KDi_ta-ipmePuGk-18" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;" target="puZU-KDi_ta-ipmePuGk-50" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
             <mxPoint x="320" y="520" as="sourcePoint" />
             <mxPoint x="420" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="afuPfpez00HmwlicCAWZ-4" edge="1" parent="1" source="puZU-KDi_ta-ipmePuGk-74" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="puZU-KDi_ta-ipmePuGk-18" value="">
+        <mxCell id="afuPfpez00HmwlicCAWZ-4" edge="1" parent="1" source="puZU-KDi_ta-ipmePuGk-74" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;" target="puZU-KDi_ta-ipmePuGk-18" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
             <mxPoint x="320" y="520" as="sourcePoint" />
             <mxPoint x="420" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="afuPfpez00HmwlicCAWZ-5" edge="1" parent="1" source="puZU-KDi_ta-ipmePuGk-31" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="puZU-KDi_ta-ipmePuGk-71" value="">
+        <mxCell id="afuPfpez00HmwlicCAWZ-7" edge="1" parent="1" source="puZU-KDi_ta-ipmePuGk-31" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;" target="puZU-KDi_ta-ipmePuGk-71" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
-            <mxPoint x="320" y="520" as="sourcePoint" />
-            <mxPoint x="420" y="420" as="targetPoint" />
+            <mxPoint x="750" y="830" as="sourcePoint" />
+            <mxPoint x="510" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
